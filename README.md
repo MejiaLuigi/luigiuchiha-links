@@ -44,6 +44,7 @@ https://tu-usuario.vercel.app
 4. Save and publish
 
 ## 📁 Project Structure
+```
 
 ├── components
 │ ├── Header
@@ -66,6 +67,8 @@ https://tu-usuario.vercel.app
 │ ├── avatar.png
 │ └── icons
 └── README.md
+
+```
 
 
 ## 🎨 Customization
