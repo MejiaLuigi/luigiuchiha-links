@@ -1,0 +1,52 @@
+@import '../../styles/colors.css';
+
+.container-social-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.social-button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    height: 56px;
+    gap: 8.5px;
+    border-radius: 33px;
+    background-color: var(--PerfectGray);
+    padding: 0 23px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.social-button--twitch {
+    background-color: var(--BikiniRed);
+}
+.social-button:hover{
+    background-color: var(--BikiniRed);
+    transition: background-color 0.3s ease;
+}
+.social-button--twitch:hover{
+    background-color: var(--HotOrange);
+    transition: background-color 0.3s ease;
+}
+.social-button--discord:hover{
+    background-color: var(--DevilRed);
+    transition: background-color 0.3s ease;
+}
+.social-button:active {
+    transform: translateY(1px);
+}
+.social-button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.social-icon {
+    font-size: 21px;
+    color: #ffffff;
+}

@@ -1,0 +1,12 @@
+:root{
+    --CodGray: #0B0B0B; /* Negro base */
+    --BikiniRed : #E11D2E; /* Rojo principal */
+    --DevilRed: #7A0C14; /* Rojo oscuro*/
+    --HotOrange: #FF6A00; /* Naranja fuego */
+    --ShinyOrange: #FF8C1A; /* Naranja brillante */
+    --GoldenPoppy: #FFC300; /* Amarillo fuego */
+    --White: #FFFFFF; /* Blanco */
+    --EerieBlack: #1A1A1A; /* Gris oscuro */
+    --PerfectGray: #A1A1A1; /* Gris texto */
+    --TangyPink: #FF2D7A; /* Rosa neón */
+}

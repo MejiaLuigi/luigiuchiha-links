@@ -1,0 +1,55 @@
+---
+import './SocialButtons.css'
+
+const redes = [
+    {
+        icon: 'fa-brands fa-twitch',
+        name_social: 'Ver en Twitch',
+        url: 'https://www.twitch.tv/luigiuchiha_'
+    },
+    {
+        icon: 'fa-brands fa-discord',
+        name_social: 'Unirme a Discord',
+        url: 'https://discord.gg/S5y4b7ceZD'
+    },
+    {
+        icon: 'fa-brands fa-youtube',
+        name_social: 'YouTube',
+        url: 'https://www.youtube.com/@LuigiUchiha-o2b'
+    },
+    {
+        icon: 'fa-brands fa-tiktok',
+        name_social: ' TikTok',
+        url: 'https://www.tiktok.com/@luigiuchiha'
+    },
+    {
+        icon: 'fa-brands fa-instagram',
+        name_social: 'Instagram',
+        url: 'https://www.instagram.com/luigiuchiha_'
+    },
+    {
+        icon: 'fa-brands fa-x-twitter',
+        name_social: 'Twitter / X',
+        url: 'https://x.com/LuigiU_14'
+    },
+]
+
+const socialVariants: Record<string, string> = {
+    'Ver en Twitch': 'social-button--twitch',
+    'Unirme a Discord': 'social-button--discord',
+}
+---
+
+<section class="container-social-buttons">
+    {redes.map((red) => (
+        <a 
+            href={red.url} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class={`social-button ${socialVariants[red.name_social] || ''}`}
+        >
+            <i class={`social-icon ${red.icon}`}></i>
+            <span>{red.name_social}</span>
+        </a>
+    ))}
+</section>
