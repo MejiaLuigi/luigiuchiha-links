@@ -1,43 +1,108 @@
-# Astro Starter Kit: Minimal
+# Luigi Uchiha - Link in Bio
 
-```sh
-npm create astro@latest -- --template minimal
+A responsive personal link hub showcasing social media platforms and content channels.  
+Built with semantic HTML and modern CSS, focused on performance, accessibility, and clean UI.
+
+## 🔗 Demo
+Live preview:
+https://tu-usuario.vercel.app
+
+## 📸 Preview
+![Preview](./preview.png)
+
+> Tip: agrega una captura de pantalla y nómbrala `preview.png` en la raíz del proyecto.
+
+## ✨ Features
+- Responsive design (mobile-first)
+- Modern UI with hover animations
+- Social media buttons
+- Clean and minimal layout
+- Fast loading performance
+- Semantic HTML structure
+- Easy to customize
+
+## 🛠️ Built With
+- Astro
+- HTML5
+- CSS3
+- JS
+- Flexbox
+- Responsive Design
+- Hover animations & transitions
+
+## 🎨 Design
+The UI was designed from scratch in Figma following a mobile-first approach, with dedicated layouts for both mobile and desktop screens.  
+Spacing, typography, color palette, and visual effects were carefully crafted and then translated into responsive CSS.
+
+## 📱 Mobile Preview
+![Mobile](./preview-mobile.png)
+
+## 🖥️ Desktop Preview
+![Desktop](./preview-desktop.png)
+
+## 🚀 Deploy
+
+### Option 1 — Vercel
+1. Push project to GitHub
+2. Import repository in Vercel
+3. Deploy automatically
+
+### Option 2 — GitHub Pages
+1. Go to repository settings
+2. Pages section
+3. Select branch `main`
+4. Save and publish
+
+## 📁 Project Structure
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+├── components
+│ ├── Header
+│ | ├── Header.astro
+│ | └── header.css
+│ ├── SocialButtons
+| │ ├── SocialButton.astro
+│ | └── socialButton.css
+│ └── Footer
+| │ ├── Footer.astro
+│ | └── footer.css
+├── layout
+│ └── BaseLayout.astro
+├── pages
+│ └── index.astro
+├── styles
+│ ├── colors.css
+│ └── global.css
+├── assets
+│ ├── avatar.png
+│ └── icons
+└── README.md
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🎨 Customization
+You can easily:
+- Change avatar image
+- Update social links
+- Modify colors
+- Adjust hover effects
+- Add new platforms
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 📱 Responsive
+The layout adapts to:
+- Mobile devices
+- Tablets
+- Desktop screens
 
-## 🧞 Commands
+## 📄 License
+This project is open source and available under the MIT License.
 
-All commands are run from the root of the project, from a terminal:
+## 👤 Author
+Luigi Uchiha
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Twitch: https://www.twitch.tv/luigiuchiha_
+- YouTube: https://www.youtube.com/@LuigiUchiha-o2b
+- Discord: https://discord.gg/S5y4b7ceZD
+- TikTok: https://www.tiktok.com/@luigiuchiha
+- Instagram: https://www.instagram.com/luigiuchiha_
