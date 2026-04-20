@@ -30,6 +30,16 @@ https://tu-usuario.vercel.app
 - Responsive Design
 - Hover animations & transitions
 
+## 🎨 Design
+The UI was designed from scratch in Figma following a mobile-first approach, with dedicated layouts for both mobile and desktop screens.  
+Spacing, typography, color palette, and visual effects were carefully crafted and then translated into responsive CSS.
+
+## 📱 Mobile Preview
+![Mobile](./preview-mobile.png)
+
+## 🖥️ Desktop Preview
+![Desktop](./preview-desktop.png)
+
 ## 🚀 Deploy
 
 ### Option 1 — Vercel
