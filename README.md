@@ -10,8 +10,6 @@ https://luigiuchiha.vercel.app
 ## 📸 Preview
 ![Preview](preview/web_preview.png)
 
-> Tip: agrega una captura de pantalla y nómbrala `preview.png` en la raíz del proyecto.
-
 ## ✨ Features
 - Responsive design (mobile-first)
 - Modern UI with hover animations
