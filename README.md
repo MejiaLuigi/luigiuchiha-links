@@ -5,12 +5,10 @@ Built with semantic HTML and modern CSS, focused on performance, accessibility, 
 
 ## 🔗 Demo
 Live preview:
-https://tu-usuario.vercel.app
+https://luigiuchiha.vercel.app
 
 ## 📸 Preview
-![Preview](./preview.png)
-
-> Tip: agrega una captura de pantalla y nómbrala `preview.png` en la raíz del proyecto.
+![Preview](preview/web_preview.png)
 
 ## ✨ Features
 - Responsive design (mobile-first)
@@ -35,10 +33,10 @@ The UI was designed from scratch in Figma following a mobile-first approach, wit
 Spacing, typography, color palette, and visual effects were carefully crafted and then translated into responsive CSS.
 
 ## 📱 Mobile Preview
-![Mobile](./preview-mobile.png)
+![Mobile](preview/mobile_preview.png)
 
 ## 🖥️ Desktop Preview
-![Desktop](./preview-desktop.png)
+![Desktop](preview/desktop_preview.png)
 
 ## 🚀 Deploy
 
